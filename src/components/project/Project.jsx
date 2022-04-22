@@ -1,7 +1,14 @@
 import './project.css'
 
+
+
+
+
 const Project = ({img, link, title}) => {
-  console.log(title)
+
+  const handleClick = () =>{
+    window.open(link)
+  }
   return (
     <div className='p'>
 
@@ -15,6 +22,10 @@ const Project = ({img, link, title}) => {
       <a href={link} target="_blank" rel="noreferrer">
         <img src={img} alt="" className="p-img" />
       </a>
+      <button onClick={handleClick}>
+        Check It Out
+      </button>
+
     </div>
   )
 }
