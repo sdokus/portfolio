@@ -1,20 +1,25 @@
 import "./intro.css"
 import Me from "../../img/me.png"
+import { useContext } from 'react';
+import { ThemeContext } from '../../context';
 
  const Intro = () => {
+  const theme = useContext(ThemeContext)
+  const darkMode = theme.state.darkMode;
+
   return (
     <div className="i">
       <div className="i-left">
-        <div className="i-left-wrapper">
+        <div style={{backgroundColor: darkMode && 'grey'}} className="i-left-wrapper">
           <h2 className = "i-intro">Hello, My name is</h2>
           <h1 className="i-name">Sam Dokus</h1>
           <div className="i-title">
           <div className="i-title-wrapper">
-          <div className="i-title-item"> Fullstack Developer</div>
-          <div className="i-title-item"> Web Developer</div>
-          <div className="i-title-item"> Problem Solver</div>
-          <div className="i-title-item"> Designer/Painter</div>
-          <div className="i-title-item"> Friendly Human</div>
+          <div style={{color: darkMode && '#8ecae6'}} className="i-title-item"> Fullstack Developer</div>
+          <div style={{color: darkMode && '#8ecae6'}} className="i-title-item"> Web Developer</div>
+          <div style={{color: darkMode && '#8ecae6'}} className="i-title-item"> Problem Solver</div>
+          <div style={{color: darkMode && '#8ecae6'}} className="i-title-item"> Designer/Painter</div>
+          <div style={{color: darkMode && '#8ecae6'}} className="i-title-item"> Friendly Human</div>
             </div>
           </div>
           <p className="i-desc">
@@ -23,7 +28,7 @@ import Me from "../../img/me.png"
         </div>
       </div>
       <div className="i-right">
-        <div className="i-bg"></div>
+        <div style={{backgroundColor: darkMode && '#219ebc'}} className="i-bg"></div>
         <img src={Me} alt="" className="i-img" />
       </div>
     </div>

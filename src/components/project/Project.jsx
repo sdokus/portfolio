@@ -1,3 +1,5 @@
+import { useContext } from 'react';
+import { ThemeContext } from '../../context';
 import './project.css'
 
 
@@ -5,6 +7,8 @@ import './project.css'
 
 
 const Project = ({img, link, title}) => {
+  const theme = useContext(ThemeContext)
+  const darkMode = theme.state.darkMode;
 
   const handleClick = () =>{
     window.open(link)
@@ -12,7 +16,7 @@ const Project = ({img, link, title}) => {
   return (
     <div className='p'>
 
-       <div className="p-browser">
+       <div style={{backgroundColor: darkMode && '#219ebc'}} className="p-browser">
         <div className="p-circle"></div>
         <div className="p-circle"></div>
         <div className="p-circle"></div>

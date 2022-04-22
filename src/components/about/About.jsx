@@ -1,11 +1,15 @@
 import './about.css'
 import Me from "../../img/me2.jpg"
+import { useContext } from 'react';
+import { ThemeContext } from '../../context';
 
 const About = () => {
+  const theme = useContext(ThemeContext)
+  const darkMode = theme.state.darkMode;
   return (
     <div className='a'>
       <div className='a-left'>
-        <div className='a-card bg'></div>
+        <div style={{backgroundColor: darkMode && '#219ebc'}} className='a-card bg'></div>
         <div className='a-card'>
           <img src={Me} alt='' className='a-img'/>
         </div>
