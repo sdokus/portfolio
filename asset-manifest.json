@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.ae7a3fb5.chunk.css",
+    "main.js": "/portfolio/static/js/main.54e12e99.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.54e12e99.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.343bcb03.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.343bcb03.js.map",
+    "static/js/2.66fa9baf.chunk.js": "/portfolio/static/js/2.66fa9baf.chunk.js",
+    "static/js/2.66fa9baf.chunk.js.map": "/portfolio/static/js/2.66fa9baf.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.ae7a3fb5.chunk.css.map": "/portfolio/static/css/main.ae7a3fb5.chunk.css.map",
+    "static/js/2.66fa9baf.chunk.js.LICENSE.txt": "/portfolio/static/js/2.66fa9baf.chunk.js.LICENSE.txt",
+    "static/media/CHIP.3cb5332e.png": "/portfolio/static/media/CHIP.3cb5332e.png",
+    "static/media/dokusDesigns.2e0aaac5.png": "/portfolio/static/media/dokusDesigns.2e0aaac5.png",
+    "static/media/email.ecb882fe.png": "/portfolio/static/media/email.ecb882fe.png",
+    "static/media/me.01c0d45f.png": "/portfolio/static/media/me.01c0d45f.png",
+    "static/media/me2.353fce45.jpg": "/portfolio/static/media/me2.353fce45.jpg",
+    "static/media/moon.6516c950.png": "/portfolio/static/media/moon.6516c950.png",
+    "static/media/sun.e6673536.png": "/portfolio/static/media/sun.e6673536.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.343bcb03.js",
+    "static/js/2.66fa9baf.chunk.js",
+    "static/css/main.ae7a3fb5.chunk.css",
+    "static/js/main.54e12e99.chunk.js"
+  ]
+}
