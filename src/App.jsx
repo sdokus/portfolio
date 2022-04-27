@@ -19,6 +19,7 @@ const App = () => {
     <Toggle />
     <Intro />
     <About />
+    <br/>
     <ProjectList />
     <Contact />
   </div>

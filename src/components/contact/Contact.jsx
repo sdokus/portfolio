@@ -38,11 +38,11 @@ const Contact = () => {
             </div>
             <div className="c-info-item">
               <img className="c-icon" src= {darkMode ? 'https://cdn-icons-png.flaticon.com/512/174/174857.png' : 'https://www.edigitalagency.com.au/wp-content/uploads/new-linkedin-logo-white-black-png.png'} alt="" />
-              <a style={{color: darkMode && "white"}}href='https://www.linkedin.com/in/sam-dokus/'>https://www.linkedin.com/in/sam-dokus/</a>
+              <a style={{color: darkMode && "white"}}href='https://www.linkedin.com/in/sam-dokus/'>linkedin.com/in/sam-dokus/</a>
             </div>
             <div className="c-info-item">
               <img className="c-icon" src= {darkMode ? GitHubDark : GitHubLight} alt="" />
-              <a style={{color: darkMode && "white"}}href='https://github.com/sdokus'>https://github.com/sdokus</a>
+              <a style={{color: darkMode && "white"}}href='https://github.com/sdokus'>github.com/sdokus</a>
             </div>
           </div>
         </div>

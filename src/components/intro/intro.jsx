@@ -23,7 +23,7 @@ import { ThemeContext } from '../../context';
             </div>
           </div>
           <p className="i-desc">
-          I love the structure and logic that data and coding provide and look forward to utilizing my organizational skills to creatively solve problems.
+          Project-focused fullstack developer with experience managing large datasets and collaborating with other developers to create responsive web applications.
           </p>
         </div>
       </div>
